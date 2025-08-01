@@ -1,20 +1,32 @@
+import { CIcon } from "../TechstackIcon/CIcon"
 import { ExpressIcon } from "../TechstackIcon/ExpressIcon"
 import { JsIcon } from "../TechstackIcon/JsIcon"
 import { MongoDbIcon } from "../TechstackIcon/MongoDbIcon"
+import { NextJsIcon } from "../TechstackIcon/NextJsIcon"
 import { NodejsIcon } from "../TechstackIcon/NodejsIcon"
+import { PostgresIcon } from "../TechstackIcon/PostgresIcon"
+import { PrismaIcon } from "../TechstackIcon/PrismaIcon"
 import { ReactIcon } from "../TechstackIcon/ReactIcon"
+import { RedisIcon } from "../TechstackIcon/RedisIcon"
 import { TailwindIcon } from "../TechstackIcon/TailwindIcon"
 import { TypeScriptIcon } from "../TechstackIcon/TypeScriptIcon"
 
 export const TechStack = () => {
-    return <div className="border border-gray-200 p-4 rounded-lg flex gap-4">
-        <JsIcon />
-        <TailwindIcon />
-        <ReactIcon />
-        <NodejsIcon />
-        <ExpressIcon />
-        <TypeScriptIcon />
-        <MongoDbIcon />
+    return <div className="lg:w-200 border border-gray-200 p-4 h-auto rounded-lg">
+        <div className="flex flex-wrap gap-3">
+            <JsIcon />
+            <TailwindIcon />
+            <ReactIcon />
+            <NodejsIcon />
+            <ExpressIcon />
+            <TypeScriptIcon />
+            <MongoDbIcon />
+            <NextJsIcon />
+            <PrismaIcon />
+            <PostgresIcon />
+            <RedisIcon />
+            <CIcon />
+        </div>
     </div>
 }
 
