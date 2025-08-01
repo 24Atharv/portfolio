@@ -4,13 +4,15 @@ import { Navbar } from './components/Navbar'
 import { TechStack } from './components/TechStack'
 
 function App() {
-  return <div className='bg-black min-h-screen text-white'>
-    <div className='p-10 flex flex-col justify-center items-center'>
+  return <div className='bg-black min-h-screen text-white flex flex-col items-center'>
+    <div className='p-7 flex flex-col justify-center items-center'>
       <Navbar />
+      </div>
+      <div className='flex flex-col items-center'>
       <Intro />
       <TechStack />
+      </div>
     </div>
-  </div>
 }
 
 export default App
