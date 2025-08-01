@@ -6,6 +6,7 @@ import { MiddleIcon } from "../icons/MiddleIcon"
 import { MoonIcon } from "../icons/MoonIcon"
 import { ProjectIcon } from "../icons/projectIcon"
 import { ResumeIcon } from "../icons/ResumeIcon"
+import { SunIcon } from "../icons/SunIcon"
 import { TwitterIcon } from "../icons/TwitterIcon"
 
 export const Navbar = () => {
@@ -26,6 +27,7 @@ export const Navbar = () => {
         <MiddleIcon />
         <div className="flex px-4 items-center justify-center">
         <MoonIcon />
+        <SunIcon />
         </div>
     </div>
 }
