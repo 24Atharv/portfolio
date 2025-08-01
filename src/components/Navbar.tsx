@@ -1,13 +1,13 @@
-import { AboutIcon } from "../icons/AboutIcon"
-import { BlogIcon } from "../icons/BlogIcon"
-import { GithubIcon } from "../icons/githubIcon"
-import { HomeIcon } from "../icons/HomeIcon"
-import { MiddleIcon } from "../icons/MiddleIcon"
-import { MoonIcon } from "../icons/MoonIcon"
-import { ProjectIcon } from "../icons/projectIcon"
-import { ResumeIcon } from "../icons/ResumeIcon"
-import { SunIcon } from "../icons/SunIcon"
-import { TwitterIcon } from "../icons/TwitterIcon"
+import { AboutIcon } from "../Navicons/AboutIcon"
+import { BlogIcon } from "../Navicons/BlogIcon"
+import { GithubIcon } from "../Navicons/GithubIcon"
+import { HomeIcon } from "../Navicons/HomeIcon"
+import { MiddleIcon } from "../Navicons/MiddleIcon"
+import { MoonIcon } from "../Navicons/MoonIcon"
+import { ProjectIcon } from "../Navicons/ProjectIcon"
+import { ResumeIcon } from "../Navicons/ResumeIcon"
+import { SunIcon } from "../Navicons/SunIcon"
+import { TwitterIcon } from "../Navicons/TwitterIcon"
 
 export const Navbar = () => {
     return <div className="border border-gray-200 rounded-2xl bg-[#71717a] text-white
