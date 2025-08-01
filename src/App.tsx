@@ -1,6 +1,7 @@
 import './App.css'
 import { Intro } from './components/Intro'
 import { Navbar } from './components/Navbar'
+import { ProjectSection } from './components/ProjectSection'
 import { TechStack } from './components/TechStack'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <div className='flex flex-col items-center'>
       <Intro />
       <TechStack />
+      <ProjectSection />
       </div>
     </div>
 }
