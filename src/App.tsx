@@ -1,20 +1,11 @@
 import './App.css'
-import { Intro } from './components/Intro'
-import { Navbar } from './components/Navbar'
-import { ProjectSection } from './components/ProjectSection'
-import { TechStack } from './components/TechStack'
+import { Dashboard } from './components/dashboard'
+
 
 function App() {
-  return <div className='bg-black min-h-screen text-white flex flex-col items-center'>
-    <div className='p-7 flex flex-col justify-center items-center'>
-      <Navbar />
-      </div>
-      <div className='flex flex-col items-center'>
-      <Intro />
-      <TechStack />
-      <ProjectSection />
-      </div>
-    </div>
+  return <div>
+    <Dashboard />
+  </div>
 }
 
 export default App

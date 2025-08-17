@@ -12,7 +12,7 @@ import { TailwindIcon } from "../TechstackIcon/TailwindIcon"
 import { TypeScriptIcon } from "../TechstackIcon/TypeScriptIcon"
 
 export const TechStack = () => {
-    return <div className="flex flex-col gap-1 items-center">
+    return <div className="flex flex-col gap-1 items-center mt-9">
         <span className="font-bold text-2xl">Tech Stack</span>
         <div className="lg:w-200 border border-gray-200 p-4 h-auto rounded-lg">
             <div className="flex flex-wrap gap-3">
